@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="1. 我国已经进入拉尼娜状态，专家称：预计今年冬季华东和华南等地可能出现冬春连旱 </br></br> 2. 11 月 70 城房价出炉：各线城市商品住宅销售价格环比总体下降、同比降幅扩大；全国商品房待售面积连续 9 个月下降 </br></br> 3. 统计局：11 月全国城镇调查失业率为 5.1%，与上月持平，就业形势总体稳定 </br></br> 4. 上海开始试点 “生育友好岗”：支持在家办公、弹性上下班、每年多 3 天带薪假 </br></br> 5. 2025 式人民警察制式服装正式列装，系 20 多年以来人民警察队伍首次整体换装 </br></br> 6. 我国首批 L3 级自动驾驶车型产品获得准入许可，将在北京、重庆指定区域开展上路测试 </br></br> 7. 麦当劳确认涨价：涉及多款汉堡、小食及套餐，涨幅在 0.5 元至 1 元，网友调侃 '快乐没了' </br></br> 8. 河南邮政新规明年 3 月施行：擅自投递至快递柜最高罚款 3 万元；天津：即日起全域全时段禁止燃放烟花爆竹 </br></br> 9. 亚运三金得主实名举报训练基地主任 “索要比赛奖金”，云南体育局通报：已全面开展调查 </br></br> 10. 港媒：黎智英串谋勾结外国势力等三项罪名成立，量刑结果最早明年一月公布 </br></br> 11. 日媒：日本最后两只大熊猫将于明年 1 月下旬归还中国，届时日本将自 1972 年以来首次出现全国无大熊猫的局面 </br></br> 12. 韩媒：韩国发布最终调查结果，尹锡悦提前一年多策划实施紧急戒严，军政界 24 人被起诉 </br></br> 13. 外媒：泰柬冲突持续，已致柬 12 名平民死亡，40 万人流离失所；泰国军方宣布将泰国湾划为高风险区域；中方正全力推动柬泰停火 </br></br> 14. 澳媒：澳大利亚悉尼海滩枪击事件已致 16 死数十伤，两枪手系一对父子，澳大利亚全国降半旗悼念 </br></br> 15. 美媒：NASA 一火星探测器突然失联，已连续服役十余年；美国高校学费飙涨，在美国获得本科学历需花费约 280 万元 </br></br> 微博热搜：  [警方通报一警车下来3人牵着宠物狗](https://s.weibo.com/weibo?q=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E4%B8%80%E8%AD%A6%E8%BD%A6%E4%B8%8B%E6%9D%A53%E4%BA%BA%E7%89%B5%E7%9D%80%E5%AE%A0%E7%89%A9%E7%8B%97),  [肝癌晚期父亲让女儿陪着买寿衣](https://s.weibo.com/weibo?q=%E8%82%9D%E7%99%8C%E6%99%9A%E6%9C%9F%E7%88%B6%E4%BA%B2%E8%AE%A9%E5%A5%B3%E5%84%BF%E9%99%AA%E7%9D%80%E4%B9%B0%E5%AF%BF%E8%A1%A3),  [家门口的民生议事厅](https://s.weibo.com/weibo?q=%E5%AE%B6%E9%97%A8%E5%8F%A3%E7%9A%84%E6%B0%91%E7%94%9F%E8%AE%AE%E4%BA%8B%E5%8E%85),  [老舅](https://s.weibo.com/weibo?q=%E8%80%81%E8%88%85),  [美队有孩子了](https://s.weibo.com/weibo?q=%E7%BE%8E%E9%98%9F%E6%9C%89%E5%AD%A9%E5%AD%90%E4%BA%86),  [中华书局下架召回唐诗三百首](https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%B9%A6%E5%B1%80%E4%B8%8B%E6%9E%B6%E5%8F%AC%E5%9B%9E%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96),  [华为乾崑无畏先行](https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E6%97%A0%E7%95%8F%E5%85%88%E8%A1%8C),  [狙击蝴蝶 那天晚上展开说说](https://s.weibo.com/weibo?q=%E7%8B%99%E5%87%BB%E8%9D%B4%E8%9D%B6%20%E9%82%A3%E5%A4%A9%E6%99%9A%E4%B8%8A%E5%B1%95%E5%BC%80%E8%AF%B4%E8%AF%B4),  [销售直言不建议买35万玛莎拉蒂](https://s.weibo.com/weibo?q=%E9%94%80%E5%94%AE%E7%9B%B4%E8%A8%80%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%B9%B035%E4%B8%87%E7%8E%9B%E8%8E%8E%E6%8B%89%E8%92%82),  [杨瀚森18分10篮板4助攻](https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE18%E5%88%8610%E7%AF%AE%E6%9D%BF4%E5%8A%A9%E6%94%BB)
+</br></br></br>积极的人在每一次忧患中都看到机会，而消极的人则在每个机会中都看到忧患。">
+<meta property="og:title" content="December 16th 2025, 10:00:00 am">
+<meta property="og:description" content="1. 我国已经进入拉尼娜状态，专家称：预计今年冬季华东和华南等地可能出现冬春连旱 </br></br> 2. 11 月 70 城房价出炉：各线城市商品住宅销售价格环比总体下降、同比降幅扩大；全国商品房待售面积连续 9 个月下降 </br></br> 3. 统计局：11 月全国城镇调查失业率为 5.1%，与上月持平，就业形势总体稳定 </br></br> 4. 上海开始试点 “生育友好岗”：支持在家办公、弹性上下班、每年多 3 天带薪假 </br></br> 5. 2025 式人民警察制式服装正式列装，系 20 多年以来人民警察队伍首次整体换装 </br></br> 6. 我国首批 L3 级自动驾驶车型产品获得准入许可，将在北京、重庆指定区域开展上路测试 </br></br> 7. 麦当劳确认涨价：涉及多款汉堡、小食及套餐，涨幅在 0.5 元至 1 元，网友调侃 '快乐没了' </br></br> 8. 河南邮政新规明年 3 月施行：擅自投递至快递柜最高罚款 3 万元；天津：即日起全域全时段禁止燃放烟花爆竹 </br></br> 9. 亚运三金得主实名举报训练基地主任 “索要比赛奖金”，云南体育局通报：已全面开展调查 </br></br> 10. 港媒：黎智英串谋勾结外国势力等三项罪名成立，量刑结果最早明年一月公布 </br></br> 11. 日媒：日本最后两只大熊猫将于明年 1 月下旬归还中国，届时日本将自 1972 年以来首次出现全国无大熊猫的局面 </br></br> 12. 韩媒：韩国发布最终调查结果，尹锡悦提前一年多策划实施紧急戒严，军政界 24 人被起诉 </br></br> 13. 外媒：泰柬冲突持续，已致柬 12 名平民死亡，40 万人流离失所；泰国军方宣布将泰国湾划为高风险区域；中方正全力推动柬泰停火 </br></br> 14. 澳媒：澳大利亚悉尼海滩枪击事件已致 16 死数十伤，两枪手系一对父子，澳大利亚全国降半旗悼念 </br></br> 15. 美媒：NASA 一火星探测器突然失联，已连续服役十余年；美国高校学费飙涨，在美国获得本科学历需花费约 280 万元 </br></br> 微博热搜：  [警方通报一警车下来3人牵着宠物狗](https://s.weibo.com/weibo?q=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E4%B8%80%E8%AD%A6%E8%BD%A6%E4%B8%8B%E6%9D%A53%E4%BA%BA%E7%89%B5%E7%9D%80%E5%AE%A0%E7%89%A9%E7%8B%97),  [肝癌晚期父亲让女儿陪着买寿衣](https://s.weibo.com/weibo?q=%E8%82%9D%E7%99%8C%E6%99%9A%E6%9C%9F%E7%88%B6%E4%BA%B2%E8%AE%A9%E5%A5%B3%E5%84%BF%E9%99%AA%E7%9D%80%E4%B9%B0%E5%AF%BF%E8%A1%A3),  [家门口的民生议事厅](https://s.weibo.com/weibo?q=%E5%AE%B6%E9%97%A8%E5%8F%A3%E7%9A%84%E6%B0%91%E7%94%9F%E8%AE%AE%E4%BA%8B%E5%8E%85),  [老舅](https://s.weibo.com/weibo?q=%E8%80%81%E8%88%85),  [美队有孩子了](https://s.weibo.com/weibo?q=%E7%BE%8E%E9%98%9F%E6%9C%89%E5%AD%A9%E5%AD%90%E4%BA%86),  [中华书局下架召回唐诗三百首](https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%B9%A6%E5%B1%80%E4%B8%8B%E6%9E%B6%E5%8F%AC%E5%9B%9E%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96),  [华为乾崑无畏先行](https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E6%97%A0%E7%95%8F%E5%85%88%E8%A1%8C),  [狙击蝴蝶 那天晚上展开说说](https://s.weibo.com/weibo?q=%E7%8B%99%E5%87%BB%E8%9D%B4%E8%9D%B6%20%E9%82%A3%E5%A4%A9%E6%99%9A%E4%B8%8A%E5%B1%95%E5%BC%80%E8%AF%B4%E8%AF%B4),  [销售直言不建议买35万玛莎拉蒂](https://s.weibo.com/weibo?q=%E9%94%80%E5%94%AE%E7%9B%B4%E8%A8%80%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%B9%B035%E4%B8%87%E7%8E%9B%E8%8E%8E%E6%8B%89%E8%92%82),  [杨瀚森18分10篮板4助攻](https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE18%E5%88%8610%E7%AF%AE%E6%9D%BF4%E5%8A%A9%E6%94%BB)
+</br></br></br>积极的人在每一次忧患中都看到机会，而消极的人则在每个机会中都看到忧患。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://quickingf.github.io/post/December%2016th%202025%2C%2010-00-00%20am.html">
+<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
+<title>December 16th 2025, 10:00:00 am</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">December 16th 2025, 10:00:00 am</h1>
+<div class="title-right">
+    <a href="https://quickingf.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/quickingf/quickingf.github.io/issues/91" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><ol>
+<li>我国已经进入拉尼娜状态，专家称：预计今年冬季华东和华南等地可能出现冬春连旱 <br><br> 2. 11 月 70 城房价出炉：各线城市商品住宅销售价格环比总体下降、同比降幅扩大；全国商品房待售面积连续 9 个月下降 <br><br> 3. 统计局：11 月全国城镇调查失业率为 5.1%，与上月持平，就业形势总体稳定 <br><br> 4. 上海开始试点 “生育友好岗”：支持在家办公、弹性上下班、每年多 3 天带薪假 <br><br> 5. 2025 式人民警察制式服装正式列装，系 20 多年以来人民警察队伍首次整体换装 <br><br> 6. 我国首批 L3 级自动驾驶车型产品获得准入许可，将在北京、重庆指定区域开展上路测试 <br><br> 7. 麦当劳确认涨价：涉及多款汉堡、小食及套餐，涨幅在 0.5 元至 1 元，网友调侃 "快乐没了" <br><br> 8. 河南邮政新规明年 3 月施行：擅自投递至快递柜最高罚款 3 万元；天津：即日起全域全时段禁止燃放烟花爆竹 <br><br> 9. 亚运三金得主实名举报训练基地主任 “索要比赛奖金”，云南体育局通报：已全面开展调查 <br><br> 10. 港媒：黎智英串谋勾结外国势力等三项罪名成立，量刑结果最早明年一月公布 <br><br> 11. 日媒：日本最后两只大熊猫将于明年 1 月下旬归还中国，届时日本将自 1972 年以来首次出现全国无大熊猫的局面 <br><br> 12. 韩媒：韩国发布最终调查结果，尹锡悦提前一年多策划实施紧急戒严，军政界 24 人被起诉 <br><br> 13. 外媒：泰柬冲突持续，已致柬 12 名平民死亡，40 万人流离失所；泰国军方宣布将泰国湾划为高风险区域；中方正全力推动柬泰停火 <br><br> 14. 澳媒：澳大利亚悉尼海滩枪击事件已致 16 死数十伤，两枪手系一对父子，澳大利亚全国降半旗悼念 <br><br> 15. 美媒：NASA 一火星探测器突然失联，已连续服役十余年；美国高校学费飙涨，在美国获得本科学历需花费约 280 万元 <br><br> 微博热搜：  <a href="https://s.weibo.com/weibo?q=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E4%B8%80%E8%AD%A6%E8%BD%A6%E4%B8%8B%E6%9D%A53%E4%BA%BA%E7%89%B5%E7%9D%80%E5%AE%A0%E7%89%A9%E7%8B%97" rel="nofollow">警方通报一警车下来3人牵着宠物狗</a>,  <a href="https://s.weibo.com/weibo?q=%E8%82%9D%E7%99%8C%E6%99%9A%E6%9C%9F%E7%88%B6%E4%BA%B2%E8%AE%A9%E5%A5%B3%E5%84%BF%E9%99%AA%E7%9D%80%E4%B9%B0%E5%AF%BF%E8%A1%A3" rel="nofollow">肝癌晚期父亲让女儿陪着买寿衣</a>,  <a href="https://s.weibo.com/weibo?q=%E5%AE%B6%E9%97%A8%E5%8F%A3%E7%9A%84%E6%B0%91%E7%94%9F%E8%AE%AE%E4%BA%8B%E5%8E%85" rel="nofollow">家门口的民生议事厅</a>,  <a href="https://s.weibo.com/weibo?q=%E8%80%81%E8%88%85" rel="nofollow">老舅</a>,  <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E9%98%9F%E6%9C%89%E5%AD%A9%E5%AD%90%E4%BA%86" rel="nofollow">美队有孩子了</a>,  <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%B9%A6%E5%B1%80%E4%B8%8B%E6%9E%B6%E5%8F%AC%E5%9B%9E%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96" rel="nofollow">中华书局下架召回唐诗三百首</a>,  <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E6%97%A0%E7%95%8F%E5%85%88%E8%A1%8C" rel="nofollow">华为乾崑无畏先行</a>,  <a href="https://s.weibo.com/weibo?q=%E7%8B%99%E5%87%BB%E8%9D%B4%E8%9D%B6%20%E9%82%A3%E5%A4%A9%E6%99%9A%E4%B8%8A%E5%B1%95%E5%BC%80%E8%AF%B4%E8%AF%B4" rel="nofollow">狙击蝴蝶 那天晚上展开说说</a>,  <a href="https://s.weibo.com/weibo?q=%E9%94%80%E5%94%AE%E7%9B%B4%E8%A8%80%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%B9%B035%E4%B8%87%E7%8E%9B%E8%8E%8E%E6%8B%89%E8%92%82" rel="nofollow">销售直言不建议买35万玛莎拉蒂</a>,  <a href="https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE18%E5%88%8610%E7%AF%AE%E6%9D%BF4%E5%8A%A9%E6%94%BB" rel="nofollow">杨瀚森18分10篮板4助攻</a><br>
+<br><br><br>积极的人在每一次忧患中都看到机会，而消极的人则在每个机会中都看到忧患。<br><br><br>星期二乙巳年十月廿七</li>
+</ol></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://quickingf.github.io">60s API</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","quickingf/quickingf.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+
+
+</script>
+
+
+</html>
